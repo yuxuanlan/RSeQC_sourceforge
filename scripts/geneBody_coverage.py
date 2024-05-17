@@ -270,7 +270,7 @@ def main():
 		file_container.append(tmp)
 	OUT1.close()
 	
-	
+	"""
 	dataset=[]
 	for line in open(options.output_prefix  + ".geneBodyCoverage.txt",'r'):
 		line = line.strip()
@@ -295,7 +295,7 @@ def main():
 	except:
 		print("Cannot generate pdf file from " + options.output_prefix + '.geneBodyCoverage.r', file=sys.stderr)
 		pass
-	
+	"""
 	
 if __name__ == '__main__':
 	main()
